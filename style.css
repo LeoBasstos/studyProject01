@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: poppins, sans-serif;
+}
+
+body{
+    background-color: rgb(243, 243, 243);
+    
+}
+
+button{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(12, 206, 193);
+    width: 120px;
+    height:55px;
+    border: none;
+    border-radius: 25px;
+
+}
+
+button:hover{
+    background-color: rgb(41, 137, 254);
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+header{
+    
+    padding-top: 40px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons{
+    z-index: 1;
+}
+
+.buttons #login{
+    padding: 5px;
+    font-size: 15px;
+    background: none;
+    font-weight: bold;
+    color: rgb(157, 157, 157);
+}
+
+.buttons #subscribe{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+#menu{
+    
+    padding-top: 12px;
+    margin-right: 280px;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+#menu li a {
+    color: rgb(157, 157, 157);
+    font-weight: bold;
+}
+
+#menu li a:hover{
+    color: rgb(213, 213, 213);
+}
+
+main{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+
+#white-background{
+    border-radius: 10px;
+    border: rgb(240, 240, 240) solid 10px;
+    background-color: rgb(255, 255, 255);
+    padding:0 10px;
+    
+}
+
+#slogan{
+    display: flex;
+    flex-direction: column;
+    padding-top: 170px;
+    width: 100%;
+}
+
+#slogan h1{
+    font-size: 49px;
+    color:  hsl(257, 27%, 26%);
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+#slogan p{
+    color: rgb(180, 180, 180);
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#slogan button{
+    width: 100px;
+}
+
+#ilustration{
+  padding-top: 30px;
+  overflow: hidden;
+  z-index: 0;
+  
+}
+
+#first-form{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    border-radius: 10px;
+    height: 100px;
+    background: rgb(69, 49, 96) url(/Img/bg-shorten-desktop.svg);
+}
+
+#first-form form{
+    
+    gap: 15px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#first-form input{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 60%;
+    height: 60%;
+}
+
+#first-form button{
+    border-radius: 15px;
+    width: 20%;
+    height: 60%;
+}
+
+#statistics{
+    padding: 35px 0;
+}
+
+
+
+.texts{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texts h2{
+    font-size: 49px;
+    color:  hsl(257, 27%, 26%);
+}
+
+.texts p{
+    font-size: 20px;
+    color: rgb(180, 180, 180);
+}
+
+.cards{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+}
+
+.card-model{
+    
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 32%;
+    height: 100%;
+    position: relative;
+    
+}
+
+
+
+.card-model .card-icon-1{
+    background: rgb(53, 42, 63) url(/Img/icon-brand-recognition.svg) no-repeat center;
+    width: 20%;
+    height: 27%;
+    border-radius: 50%;
+    position: relative;
+    bottom: 35px;
+}
+
+.card-model .card-icon-2{
+    background: rgb(53, 42, 63) url(/Img/icon-fully-customizable.svg) no-repeat center;
+    width: 20%;
+    height: 27%;
+    border-radius: 50%;
+    position: relative;
+    bottom: 35px;
+}
+
+.card-model .card-icon-3{
+    background: rgb(53, 42, 63) url(/Img/icon-detailed-records.svg) no-repeat center;
+    width: 20%;
+    height: 27%;
+    border-radius: 50%;
+    position: relative;
+    bottom: 35px;
+}
+
+.card-model h2{
+    font-size: 25px;
+    color:  hsl(257, 27%, 26%);
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.card-model p{
+    padding: 0 5px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(180, 180, 180);
+    font-weight: 500;
+}
+
+#boost{
+    font-size: 29px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    height: 220px;
+    background: rgb(69, 49, 96) url(/Img/bg-boost-desktop.svg)no-repeat center;
+}
+
+footer{
+    padding: 70px 80px;
+    background-color: rgb(52, 49, 53);
+}
+
+#footer-content{
+    display: flex;
+    justify-content:space-around
+}
+
+#logo-footer{	
+    background:url(/Img/logo.svg) no-repeat center;
+    filter: invert(100%);
+    width:120px;
+    height: 100px;
+}
+
+#lists{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+
+#lists ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#lists h2{
+    line-height: 80px;
+    color: rgb(230, 230, 230);
+}
+
+#lists a{
+    color:rgb(192, 192, 192); 
+}
+
+#icon-buttons{
+   padding-top: 20px;
+}
+
+#icon-buttons button{
+  
+  width: 70px;
+  height: 70px;
+  border: none;
+  background: none;
+}
+
+#icon-buttons img{
+    width: 40px;
+    cursor: pointer;
+
+}
+
+#credits{
+
+    color:rgb(192, 192, 192);
+    padding-top: 100px;
+    display: flex;;
+    justify-content: center;
+    gap: 10px;
+}
+
+#credits a{
+    color:rgb(192, 192, 192);
+    font-weight: bold;
+}
