@@ -130,7 +130,7 @@ main{
     margin: 30px 0;
     border-radius: 10px;
     height: 100px;
-    background: rgb(69, 49, 96) url(/Img/bg-shorten-desktop.svg);
+    background: rgb(69, 49, 96) url(./Img/bg-shorten-desktop.svg);
 }
 
 #first-form form{
@@ -202,7 +202,7 @@ main{
 
 
 .card-model .card-icon-1{
-    background: rgb(53, 42, 63) url(/Img/icon-brand-recognition.svg) no-repeat center;
+    background: rgb(53, 42, 63) url(./Img/icon-brand-recognition.svg) no-repeat center;
     width: 20%;
     height: 27%;
     border-radius: 50%;
@@ -211,7 +211,7 @@ main{
 }
 
 .card-model .card-icon-2{
-    background: rgb(53, 42, 63) url(/Img/icon-fully-customizable.svg) no-repeat center;
+    background: rgb(53, 42, 63) url(./Img/icon-fully-customizable.svg) no-repeat center;
     width: 20%;
     height: 27%;
     border-radius: 50%;
@@ -220,7 +220,7 @@ main{
 }
 
 .card-model .card-icon-3{
-    background: rgb(53, 42, 63) url(/Img/icon-detailed-records.svg) no-repeat center;
+    background: rgb(53, 42, 63) url(./Img/icon-detailed-records.svg no-repeat center;
     width: 20%;
     height: 27%;
     border-radius: 50%;
@@ -252,7 +252,7 @@ main{
     align-items: center;
     gap: 25px;
     height: 220px;
-    background: rgb(69, 49, 96) url(/Img/bg-boost-desktop.svg)no-repeat center;
+    background: rgb(69, 49, 96) url(./Img/bg-boost-desktop.svg)no-repeat center;
 }
 
 footer{
@@ -266,7 +266,7 @@ footer{
 }
 
 #logo-footer{	
-    background:url(/Img/logo.svg) no-repeat center;
+    background:url(./Img/logo.svg) no-repeat center;
     filter: invert(100%);
     width:120px;
     height: 100px;
