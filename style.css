@@ -220,7 +220,7 @@ main{
 }
 
 .card-model .card-icon-3{
-    background: rgb(53, 42, 63) url(./icon-detailed-records.svg no-repeat center;
+    background: rgb(53, 42, 63) url(./icon-detailed-records.svg) no-repeat center;
     width: 20%;
     height: 27%;
     border-radius: 50%;
